@@ -50,11 +50,11 @@ export default class Paginav extends Component {
         return (
             <center><div className={styles.navbody}>
                 {page <= 1
-                    ? <button disabled={"disabled"} className={styles.buttond} ><Image alt="" src="Vector.png" className={styles.vectorback}/></button>
-                    : <button onClick={function () { previous();refresh() }} className={styles.button} ><Image alt="" src="Vector.png" style={{ marginTop: '4px', marginRight: '1px' }}/></button>
+                    ? <button disabled={"disabled"} className={styles.buttond} ><img alt="" src="Vector.png" className={styles.vectorback}/></button>
+                    : <button onClick={function () { previous();refresh() }} className={styles.button} ><img alt="" src="Vector.png" style={{ marginTop: '4px', marginRight: '1px' }}/></button>
                 }
                 <button className={styles.pagenum}>{console.log("page change")}{console.log(page)}{page}</button>
-                <button onClick={() => this.setState({ page: this.state.page + 1 })} className={styles.button}><Image alt="" src="Vector2.png" className={styles.vectornext}/></button>
+                <button onClick={() => this.setState({ page: this.state.page + 1 })} className={styles.button}><img alt="" src="Vector2.png" className={styles.vectornext}/></button>
 
             </div></center>
 

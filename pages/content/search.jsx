@@ -33,7 +33,7 @@ export default function Search() {
     <div>
 
       <input placeholder='Search name...' onChange={event => setQuery(event.target.value)} className={styles.searchbar}></input>
-      <Image alt="" src="VectorS.png" className={styles.vector} />
+      <img alt="" src="VectorS.png" className={styles.vector} />
 
       {
         data.filter(data => {
