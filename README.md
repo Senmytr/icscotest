@@ -3,7 +3,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## การเริ่มการทำงานเว็บไซต์โดยการ
 
 เริ่มการทำงานเว็บไซต์โดยการ execute คำสั่ง:
-
+```
+npm i react-dom
+```
+เพื่อทำการติดตั้ง node modules
 ```bash
 npm run dev
 # or
