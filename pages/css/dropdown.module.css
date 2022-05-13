@@ -1,0 +1,15 @@
+.dropdownhead {
+    box-sizing: border-box;
+    width: 185px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #134B8A;
+    border-radius: 50px;
+    margin: -32px 466px 0px 0px;
+    float: right;
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');

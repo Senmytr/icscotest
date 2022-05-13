@@ -1,0 +1,118 @@
+.searchbar {
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(19, 75, 138);
+  border-radius: 50px;
+  margin: -60px 38px 0px -4px;
+  float: right;
+  font-family: Kanit;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  position: fixed;
+  top: 140px;
+  right: 17px;
+  z-index: 1;
+
+}
+
+.vector {
+  position: sticky;
+  position: fixed;
+  z-index: 1;
+  right: 64px;
+  top: 93px;
+
+}
+
+.container {
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+}
+
+.card {
+  font-size: 18px;
+  line-height: 2rem;
+  color: rgb(70, 105, 170);
+}
+
+.subcon {
+  border-radius: 15px;
+  width: 400px;
+  height: 225px;
+  margin: -1342px -28px 1378px 69px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 3px 0px #00000040;
+  float: left;
+}
+
+.row {
+  /* display: flex; */
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+
+.prevcon {
+  margin: -43px 0px 0px 21px;
+  display: inline-block;
+
+}
+
+
+.images {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  float: left;
+}
+
+.profilepic {
+  height: 60px;
+  width: 60px;
+  border-Radius: 10px;
+  margin-Left: 21px;
+  margin-Top: 17px;
+}
+
+.placename {
+  margin: -74px 0px 0px 97px;
+  font-Size: 24px;
+  font-Weight: 800;
+  color: black;
+}
+
+.optime {
+  margin: -36px 0px 0px 112px;
+  font-Size: 14px;
+  font-Weight: 800;
+  color: black;
+}
+
+.vector1 {
+  margin: 0px 0px -47px -19px;
+}
+
+.rating {
+  margin: -47px 0px 46px 334px;
+  font-Size: 16px;
+  font-Weight: 800;
+}
+
+.previewpic {
+  height: 120px;
+  display: flex;
+  border-Radius: 10px;
+  overflow-X: auto;
+  justify-Content: space-evenly;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');

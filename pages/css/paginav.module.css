@@ -1,0 +1,55 @@
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #9E9E9E;
+    background-color: white;
+    margin-top: 4px;
+}
+
+.buttond {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #9E9E9E;
+    background-color: #C3BEBB;
+    margin-top: 4px;
+}
+
+.pagenum {
+    width: 45px;
+    height: 45px;
+    border-radius: 35px;
+    background-color: #134B8A;
+    border: 2px solid #134B8A;
+    margin: 0px 36px 10px 36px;
+    font-family: 'Kanit';
+    color: white;
+    ;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: hsl(0, 0%, 100%);
+    background-color: #0F1E56;
+}
+
+.navbody {
+    width: 250px;
+    height: 40px;
+    justify-Content: space-evenly;
+    margin-Left: 19%;
+    margin-Bottom: -75px;
+    margin-Top: -1500px;
+}
+.vectorback{
+    margin-Top: 4px;
+     margin-Right: 1px;
+}
+.vectornext{
+    margin-Top: 4px;
+     margin-Left: 1px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
